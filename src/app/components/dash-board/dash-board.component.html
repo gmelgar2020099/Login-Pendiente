@@ -1,0 +1,302 @@
+<!--ALEJANDRO GARCIA-->
+
+<div class="row justify-content-center">
+  <div class="col-12 ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="bi bi-building"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center text-white" id="navbarNav">
+          <ul class="nav navbar-nav pull-xs-center">
+
+            <li class="nav-item mx-5 ">
+              <a id="dd" class="nav-link text-white" routerLink="/" routerLinkActive="active">Inicio <i class="bi bi-clipboard-check"></i></a>
+            </li>
+            <li class="nav-item mx-5">
+              <a id="dd" class="nav-link text-white" routerLink="/login" routerLinkActive="active">Login <i class="bi bi-play"></i></a>
+            </li>
+            <li class="nav-item mx-5">
+              <a id="dd"class="nav-link text-white" routerLink="/registro" routerLinkActive="active">Registrarse <i class="bi bi-check2-all"></i></a>
+            </li>
+
+
+            <div class="dropdown" style="position: relative; z-index: 3" >
+                <button style="color: whitesmoke;" class="btn dropdown-toggle dd2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >
+                   Usuario <i class="bi bi-person-badge"></i>
+                </button>
+                <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuButton1">
+
+                    <div style="background-color: #222830 ">
+                        <a class="dropdown-item" href="#" style="background-color: #222830">
+                            <img src="assets/images/iconoUsuario.png" style="width: 120px;height: 120px">
+                        </a>
+                    </div>
+
+                    <a class="dropdown-item" routerLink="/dash-board">
+                        USUARIO
+                    </a>
+
+                    <div><hr class="dropdown-divider"></div>
+
+                    <div class="dropdown-item" style="background-color: #E74C3C">
+                        <a  routerLink="/inicio" routerLinkActive="active" class="dropdown-item" style="background-color: #E74C3C">↤ SALIR</a>
+                    </div>
+                </div>
+            </div>
+
+
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+  </div>
+</div>
+
+
+<section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/assets/images/iconDash.jpg" class="d-block w-100" alt="imagen">
+                <div class="carousel-caption d-none d-md-block">
+
+                  <h5 id="subTituloCarrusel">Tablero de empresas</h5>
+
+                  <div class="wrapper">
+                    <p class="title">Control  e  información  detallada  de  la  empresa</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/assets/images/iconDash2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="subTituloCarrusel">Profesionalidad y calidad</h5>
+
+                  <div class="wrapper">
+                    <p class="title" >Información detallada y específica</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/images/iconDash3.jpg " class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="subTituloCarrusel">Organización y almacenamiento</h5>
+
+                  <div class="wrapper">
+                    <p class="title">Gestión de información actualizada</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </div>
+</section>
+<hr>
+
+<section class="dark">
+	<div class="container py-4">
+		<h1 class="h1 text-center" id="pageHeaderTitle">SUCURSALES EN EL PAÍS</h1>
+
+		<article class="postcard dark blue">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="/assets/images/iconCard2.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text">
+				<h1 class="postcard__title blue"><a href="#">Sucursal zona 9</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2022-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Lunes, 21 de marzo 2022
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">
+          <i class="bi bi-building"></i>   6a Avenida 8-28 Zona 9 Guatemala, Guatemala.<br><br>
+          <i class="bi bi-telephone"></i>  Teléfono: (502) 2328-0000<br><br>
+          <i class="bi bi-clock-history">  Horario: Lunes a viernes 08:30 a 18:00 Sábado 09:00 a 15:00</i><br><br>
+          <i class="bi bi-question-square"></i>  Debido a la alta demanda presencial generada en la tienda por las limitaciones de Covid-19, nuestra atención telefónica es irregular.
+          Disculpas por la inconveniencia.
+
+        </div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Gerencia</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>Mejoramiento</li>
+					<li class="tag__item play blue">
+						<a routerLink="/informacion-sucursales" routerLinkActive="active"><i class="fas fa-play mr-2"></i>Más información ⮕</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard dark red">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="/assets/images/iconCard1.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text">
+				<h1 class="postcard__title red"><a href="#"> Sucursal San Cristobal</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2022-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Martes, 22 de marzo del 2022
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">
+          <i class="bi bi-building"></i>   Boulevard San Cristobal  3ra Calle 14-16  Plaza Heliosx|, Guatemala<br><br>
+          <i class="bi bi-telephone"></i>  Teléfono: (502) 2328-0067<br><br>
+          <i class="bi bi-clock-history">  Horario: Lunes a sábado 09:30 a 20:00 Domingo 09:30 a 19:00</i><br><br>
+
+        </div>				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Control de calidad</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>Profesionalidad</li>
+					<li class="tag__item play blue">
+						<a routerLink="/informacion-sucursales" routerLinkActive="active"><i class="fas fa-play mr-2"></i>Más información ⮕</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard dark green">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="/assets/images/iconCard3.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text">
+				<h1 class="postcard__title green"><a href="#">Sucursal San Lucas </a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2022-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Miércoles, 23 de marzo del 2022
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">
+          <i class="bi bi-building"></i>   Km. 29.5 Carretera Interamericana C.C. San Lucas Sacatepéquez, Sacatepéquez<br><br>
+          <i class="bi bi-telephone"></i>  Teléfono: (502) 2328-0091<br><br>
+          <i class="bi bi-clock-history">  Horario: Horario: Lunes a sábado 09:00 a 19:00 Domingo 09:00 a 18:00</i><br><br>
+          <i class="bi bi-question-square"></i>   Sin cerrar al medio día
+
+        </div>				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Marketing</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>Invovación</li>
+					<li class="tag__item play blue">
+						<a routerLink="/informacion-sucursales" routerLinkActive="active"><i class="fas fa-play mr-2"></i>Más información ⮕</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+
+		<article class="postcard dark yellow">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="/assets/images/iconCard4.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text">
+				<h1 class="postcard__title yellow"><a href="#">Sucursal Ciudad Cayala</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Jueves, 24 de marzo del 2022
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">
+          <i class="bi bi-building"></i>   Zona 16, Ciudad de Guatemala.<br><br>
+          <i class="bi bi-telephone"></i>  Teléfono: (502) 2493 9393<br><br>
+          <i class="bi bi-clock-history">  Horario: Lunes a viernes 07:30 a 17:00 Sábado 09:00 a 15:00</i><br><br>
+
+
+        </div>				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Dirección general</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>Efectividad</li>
+					<li class="tag__item play blue">
+						<a routerLink="/informacion-sucursales" routerLinkActive="active"><i class="fas fa-play mr-2"></i>Más información ⮕</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+
+</section> <hr>
+
+<section id="contact" class="contact justify-content-center alight-item center" style="background-color: #EAF2F8;">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Ubicación Ciudad de Guatemala</h2>
+      <p>Visualización del mapa para la ubicación de las sucursales y así tener una mejor orientación...</p>
+    </div>
+  </div>
+
+  <div style="background-image: linear-gradient(to bottom, #F39C12  , #CF6714);height: 2vh;"></div>
+
+  <div  style="background-color:#CF6714;">
+    <div class="mapouter col-12"><div class="gmap_canvas">
+      <iframe width="100%" height="406" id="gmap_canvas" src="https://maps.google.com/maps?q=Ciudad%20de%20Guatemala%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:406px;width:100%;}</style><a href="https://www.embedgooglemap.net">google map plugin html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:406px;width:100%;}</style></div>
+    </div>
+  </div>
+
+  <div style="  background-image: linear-gradient(to top, #F39C12  , #CF6714);height: 2vh;"></div>
+
+  <hr>
+
+</section>
+
+
+
+    <section style=" background-image: linear-gradient(to left, #222830  , #003049, #222830)">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-5" data-aos="fade-up">
+          <h2 class="section-heading">Servicios y desarrollo</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
+          <div class="feature-1 text-center">
+            <div class="wrap-icon icon-1">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3 class="mb-3" style="color:#F1E8B2 ">Profesionalidad</h3>
+            <p>Equipo de trabajo eficiente y productivo.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-1 text-center">
+            <div class="wrap-icon icon-1">
+              <i class="bi bi-brightness-high"></i>
+            </div>
+            <h3 class="mb-3" style="color:#F1E8B2 ">Ingenio</h3>
+            <p>Diseño dinámico y organización concreta. </p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-1 text-center">
+            <div class="wrap-icon icon-1">
+              <i class="bi bi-bar-chart"></i>
+            </div>
+            <h3 class="mb-3" style="color:#F1E8B2 ">Información</h3>
+            <p>Majeno y almacenamiento de datos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+
+    <app-footer></app-footer>
+
+<router-outlet></router-outlet>
